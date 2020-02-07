@@ -1,0 +1,28 @@
+img {
+    width: 38%;
+    height: 50%
+}
+
+p{
+    position: relative;
+    top: -780px;
+    right: -540px;
+    width: 60%;
+    line-height: 200%;
+    font-size: large;
+    color: #55018a;
+
+}
+
+h2{
+    text-align: center;
+    color: #55018a;
+}
+
+figcaption{
+    font-weight: bold;
+}
+
+body{
+    background-color: #ffff70;
+}
