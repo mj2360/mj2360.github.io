@@ -1,3 +1,7 @@
+@-ms-viewport{
+    width: device-width;
+  }
+  
 div{
     background-color: white;
     border: 500px;
@@ -35,10 +39,23 @@ button{
     font-family: 'Courier New', Courier, monospace;
     font-size: 24px;
     margin: 30px;
-    position: absolute;
-    left: 35vw;
-    right: 40vw;
 }
+
+#button1{
+    position: relative;
+    left: 600px;
+}
+
+#button2{
+    position: relative;
+    left: 600px;
+}
+
+#button3{
+    position: relative;
+    left: 600px;
+}
+
 
 body{
     background-image: url("black-white.gif");
