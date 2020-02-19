@@ -1,5 +1,6 @@
 @-ms-viewport{
-    width: fit-content;
+    width: max-content;
+}
 
 h1{
   font-size: 110px; 
@@ -141,8 +142,8 @@ top: -40px;
     top: -70px;
     background-color: darkgrey;
     padding: 20px;
-    margin-left: 1000px;
-    margin-right: 1000px;
+    margin-left: 800px;
+    margin-right: 800px;
     border:solid 10px black;
 
 }
@@ -153,8 +154,8 @@ top: -40px;
     top: -70px;
     background-color: darkgrey;
     padding: 20px;
-    margin-left: 1000px;
-    margin-right: 1000px;
+    margin-left: 800px;
+    margin-right: 800px;
     border:solid 10px black;
 
 }
