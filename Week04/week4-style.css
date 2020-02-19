@@ -1,0 +1,98 @@
+h1{
+  font-size: 110px;  
+}
+
+button{
+    position: relative;
+    top: 1200px;
+    left: 2500px;
+    border: solid 4px;
+    border-radius: 20px;
+    padding: 15px 25px;
+    text-align: center;
+}
+
+button:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#back{
+    background-color: rgba(255, 255, 255);
+}
+
+#next{
+    background-color: rgba(0, 0, 0);
+}
+
+#back:active {
+      top: 4px;	
+      border-radius: 5px;
+}
+
+#next:active {
+    top: 4px;	
+    border-radius: 5px;
+}
+
+h1{
+    background-color: darkgrey;
+    padding: 100px;
+    text-align: center;
+}
+
+#img-1{
+position: relative;
+top: -40px;
+}
+
+#img-2{
+    position: relative;
+    top: -580px;
+
+}
+
+#img-3{
+        position: relative;
+        }
+
+#img-4{
+        position: relative;
+        top: 100px;
+        right: 700px;
+         }
+#p1-img{
+    position: relative;
+    top: 200px;
+    left: 500px;
+}
+
+#cover-text{
+    position: absolute;
+    top: 450px;
+    left: 1000px;
+    margin-left: 560px;
+    margin-right: 560px;
+    width: 1000px;
+    background-color: darkgrey;
+    border: solid 50px black;
+    }
+
+ h2{
+        margin: 20px;
+        font-size: 300%;
+        text-align: end;
+    }
+
+h3{
+        margin: 20px;
+        font-size: 200%;
+        text-align: end;
+    }
+
+p{
+    font-size: 48px;
+    text-indent: 40px;
+    text-align: end;
+    margin: 27px;
+}
+    

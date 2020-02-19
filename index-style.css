@@ -59,6 +59,11 @@ button{
     left: 600px;
 }
 
+#button4{
+    position: relative;
+    left: 600px;
+}
+
 
 body{
     background-image: url("black-white.gif");
