@@ -1,6 +1,5 @@
 @-ms-viewport{
-    width: device-width;
-  }
+    width: fit-content;
 
 h1{
   font-size: 110px; 
