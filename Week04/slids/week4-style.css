@@ -11,7 +11,7 @@ h1{
 }
 
 button{
-    position: absolute;
+    position: fixed static;
     top: 1450px;
     left: 2550px;
     border: solid 4px;
@@ -31,9 +31,10 @@ button{
 }
 
 #back{
-    position: absolute;
+    position: absolute static;
     top: 1450px;
     left: 2380px;
+    bottom: 350px;
     background-color: rgba(255, 255, 255);
 }
 
@@ -53,24 +54,27 @@ button{
 
 
 #img-1{
-position: relative;
-top: -40px;
+position: absolute;
+top: 550px;
 }
 
 #img-2{
-    position: relative;
-    top: -580px;
+    position: absolute;
+    top: 650px;
+    left: 1000px;
 
 }
 
 #img-3{
-        position: relative;
+        position: absolute;
+        top: 930px;
+        left: 1220px;
         }
 
 #img-4{
-        position: relative;
-        top: 100px;
-        right: 700px;
+        position: absolute;
+        top: 1000px;
+        right: 1500px;
          }
 
 #p1-img{
