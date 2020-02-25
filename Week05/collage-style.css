@@ -1,0 +1,41 @@
+body{
+   zoom: 32%;
+    background-image: url(https://previews.123rf.com/images/stevanovicigor/stevanovicigor1509/stevanovicigor150900291/46414095-tv-damage-bad-sync-tv-channel-rgb-lcd-television-screen-with-static-noise-from-poor-broadcast-signal.jpg);
+}
+
+#img-contain{
+background-color: chartreuse;
+filter: saturate(50%);
+filter: opacity(80%);
+margin: 10vh;
+padding:2vh;
+display: flex;
+flex-wrap: wrap;
+justify-content: center; 
+}
+
+img{
+    filter: saturate(0%);
+    margin-bottom: -7vh;
+}
+
+img:hover{
+    filter: saturate(80%);
+    zoom: 500%;
+}
+
+.images{
+    z-index: (4);
+    margin-bottom: -10vh;
+}
+
+.images2{
+    z-index: (2);
+    margin-left: -5vw;
+}
+
+.images3{
+    z-index: (2);
+    margin-right: -6vw;
+    margin-top: 5vh;
+}
