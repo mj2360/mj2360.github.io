@@ -1,0 +1,176 @@
+body{
+    background-color: #99B3FA;
+}
+
+#head-block{
+    background-color: #FCFFCA;
+    width:90vw;
+
+}
+
+#container{
+    height: 100vh;
+    display: flex;
+    align-items: stretch;
+    justify-content: start;
+}
+
+.color-block{
+    background-color: #C7433C;
+    margin-top: -5vh;
+    margin-bottom: -5vh;
+}
+
+#title{
+    width: 15vw;
+}
+
+#title-text{
+    color: #FCFFCA;
+    font-family: 'Oxanium', sans-serif; 
+    font-size: 36px;
+    font-weight: 450;
+    text-align: right;
+    margin-top: 50vh;
+    margin-right: 10px;
+}
+
+#blank{
+    margin-right: 5vw;
+    width: 20vw;
+}
+
+#welcome{
+margin-top: 10vh;
+margin-left: 3vw;
+display:flex;
+justify-content:start;
+flex-direction: column;
+align-items: inherit;
+line-height: 10vh;
+}
+
+#p1{
+    color: #7A8B99;
+    font-family: 'Oxanium', sans-serif;  
+    font-weight: 620;
+    font-size:54px;
+    transform: rotate(45deg);
+}
+
+#p2{
+    color: #8FA2B3;
+    margin-top: -3vh;
+    font-family: 'Oxanium', sans-serif;  
+    font-weight: 570;
+    font-size:48px;
+    transform: rotate(45deg);
+}
+
+#p3{
+    color: #FCFFCA;
+    margin-top: -3vh;
+    font-family: 'Oxanium', sans-serif;  
+    font-weight: 700;
+    font-size:100px;
+    text-justify: distribute;
+    transform: rotate(45deg);
+}
+
+#continue{
+    margin-top:60vh;
+    margin-left: 10vw;
+    margin-right: -3vw;
+    width:10vw;
+    font-size: 32px;
+}
+
+#link{
+    color: #C7433C;
+    font-family: 'Oxanium', sans-serif;  
+    font-weight: 400;
+    font-size:32px; 
+}
+
+#link:hover{
+    color:#FCFFCA;
+}
+
+a{
+    color:#C7433C;
+}
+
+a:hover{
+    color:#FCFFCA;
+}
+
+h1{
+    height: 27vh;
+    margin-top: -5vh;
+    margin-left: -3vw;
+    margin-right: -5vw;
+    background-color: #C7433C;
+    color: #FCFFCA;
+    font-family: 'Oxanium', sans-serif;  
+    font-weight: 620;
+    font-size:100px;
+    line-height: 15vh;
+}
+
+#quotes{
+    margin-top: 5vh;
+    margin-left: 3vw;
+    width: 60vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: start;
+}
+
+.quote{
+    font-family: 'Oxanium', sans-serif;  
+    font-weight: 400;
+    font-size:48px;
+    color:#FCFFCA;
+    transform: rotate(45deg);
+    margin: 2.5vw;
+}
+
+img{
+    transform: scale(0.5);
+}
+
+#img-container{
+position: absolute;
+top: 15vh;
+right: 2vw;
+left: 55vw;
+}
+
+#container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-left: -18vw;
+    margin-top: -18vh;
+}
+
+#computer{
+    transform: scale(0.5);
+
+}
+
+#link-container{
+    margin-top:-10vh;
+}
+
+#response{
+    font-family: 'Oxanium', sans-serif;  
+    font-weight: 400;
+    font-size:42px;
+    color:#FCFFCA;
+    margin-left: -15vw;
+}
+
+#cont.{
+    font-size: 32px;
+}
