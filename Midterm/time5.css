@@ -1,0 +1,70 @@
+
+
+
+/* page five */
+
+#body-5{
+    background-image: url("assets/time-collage.jpg");
+    backdrop-filter: brightness(40%);
+}
+
+#text-contain5{
+    width: 95vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0vh;
+    position: absolute;
+    left: 15vw;
+    bottom: -20vw;
+    color: darkred;
+   
+ 
+}
+
+#text-contain5-2{
+    width: 95vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0vh;
+    position: relative;
+    left: -15vw;
+    bottom: 35vh;
+    color: darkred;
+
+}
+
+#line-5-2-2, #line-5-1-2, #link5, #link5-2 {
+    opacity: 70%;
+    color: darkred;
+    font-size: 75px;
+    font-weight: 650;
+}
+
+#link5:hover, #link5-2:hover {
+    color: dimgray;
+}
+
+#line-5-1-1, #line-5-2-1{
+    font-size: 75px;
+    font-weight: 650;
+    animation-name: blinking;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes blinking {
+    from {
+      opacity: 100%;
+    }
+  
+    to {
+        opacity: 0%;
+    }
+  }

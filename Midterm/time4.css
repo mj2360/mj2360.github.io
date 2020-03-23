@@ -1,0 +1,103 @@
+
+
+/* page four */
+
+#text-contain4{
+    width: 95vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:  #6F6F6F;
+}
+
+#line-4-1{
+    width: 95vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    font-size: 75px;
+    font-weight: 600;
+    margin:0;
+}
+
+#link4{
+    color:  #6F6F6F;
+}
+
+#link4:hover{
+    color: darkred;
+}
+
+
+.animated-4-1-1{
+    animation-name: slidedown;
+    animation-duration: 6s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+.animated-4-2-1{
+    animation-name: slidedown;
+    animation-duration: 6s;
+    animation-delay: 2.2s;
+    animation-iteration-count: infinite;
+}
+
+.animated-4-3-1{
+    animation-name: slidedown;
+    animation-duration: 6s;
+    animation-delay: 2.4s;
+    animation-iteration-count: infinite;
+}
+
+.animated-4-4-1{
+    animation-name: slidedown;
+    animation-duration: 6s;
+    animation-delay: 2.6s;
+    animation-iteration-count: infinite;
+}
+
+.animated-4-5-1{
+    animation-name: slidedown;
+    animation-duration: 6s;
+    animation-delay: 2.8s;
+    animation-iteration-count: infinite;
+}
+
+.animated-4-6-1{
+    animation-name: slidedown;
+    animation-duration: 6s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+}
+
+.animated-4-8-1{
+    animation-name: slidedown;
+    animation-duration: 6s;
+    animation-delay: 3.2s;
+    animation-iteration-count: infinite;
+}
+
+.animated-4-9-1{
+    animation-name: slidedown;
+    animation-duration: 6s;
+    animation-delay: 3.4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slidedown {
+    from {
+      margin-top: 0%;
+      height: 100%;
+    }
+  
+    to {
+        margin-top: 300%;
+        height: 200%;
+    }
+  }
+

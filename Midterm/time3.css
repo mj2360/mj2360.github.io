@@ -1,0 +1,136 @@
+/* page three */
+
+#body-3{
+    background-color: black;
+}
+
+#text-contain3{
+    width: 95vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#line-3{
+    width: 95vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.p3buttons{
+color: black !important;
+/* text-transform: uppercase; */
+text-decoration: none !important;
+background-color: #ffffff;
+padding: 20px;
+margin-top: 1vw;
+border: 6px solid #6F6F6F !important;
+display: inline-block;
+transition: all 0.4s ease 0s;
+font-size: 55px;
+font-weight: bold;
+font-family: 'Crimson Text', serif;
+filter: drop-shadow(0 0 0.75rem darkred);
+}
+
+.p3buttons:hover {
+    color: #ffffff !important;
+    background: rgb(120, 0, 10);
+    border-color:  rgb(120, 0, 10) !important;
+    transition: all 0.4s ease 0s;
+    }
+
+#b2, #b4 {
+    margin-left: 90%;
+}
+
+#b6, #b8{
+    position: relative;
+    margin-left: 94%;
+}
+
+#b1{
+    animation-name: colorchange;
+    animation-duration: 1s;
+    animation-delay: 1s;
+}
+
+#b2{
+    animation-name: colorchange;
+    animation-duration: 1s;
+    animation-delay: 1.5s;
+}
+
+#b3{
+    animation-name: colorchange;
+    animation-duration: 1s;
+    animation-delay: 2s;
+}
+
+#b4{
+    animation-name: colorchange;
+    animation-duration: 1s;
+    animation-delay: 2.5s;
+}
+
+#b5{
+    animation-name: colorchange;
+    animation-duration: 1s;
+    animation-delay: 3s;
+}
+
+#b6{
+    animation-name: colorchange;
+    animation-duration: 1s;
+    animation-delay: 3.5s;
+}
+
+#b7{
+    animation-name: colorchange;
+    animation-duration: 1s;
+    animation-delay: 4s;
+}
+
+#b8{
+    animation-name: colorchange;
+    animation-duration: 1s;
+    animation-delay: 4.5s;
+}
+
+#b9{
+    animation-name: colorchange;
+    animation-duration: 1s;
+    animation-delay: 5s;
+}
+
+@keyframes colorchange {
+    from {
+        background-color: #ffffff;
+        border-color: #6F6F6F;
+
+    }
+  
+    to {
+        background-color: rgb(120, 0, 10);
+        border-color:  rgb(120, 0, 10);
+    }
+  }
+
+#img-contain3{
+      width: 30vw;
+      margin-left: 35vw;
+      margin-top: -100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+
+ #gif2, #gif3, #gif4, #gif5, #gif6, #gif7 {
+     margin-top:-12vh;
+ }
