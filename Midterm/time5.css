@@ -59,6 +59,7 @@
     animation-iteration-count: infinite;
 }
 
+
 @keyframes blinking {
     from {
       opacity: 100%;
@@ -68,3 +69,8 @@
         opacity: 0%;
     }
   }
+
+  
+/* @media (max-width: 1000px) { 
+    #line-5-1-1, #line-5-2-1 {  font-size: 150; }
+} */

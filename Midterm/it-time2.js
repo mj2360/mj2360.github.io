@@ -3,6 +3,7 @@ let timer = 10
 let button;
 
 
+
 function setup() { 
   canvas = createCanvas(windowWidth, windowHeight);
   canvas.position(0,0);
@@ -20,8 +21,9 @@ function setup() {
 function draw() { 
   background(220);
   textAlign(CENTER, CENTER);
-  textSize(1500);
-  text(timer, windowWidth/2, windowHeight/2);
+textSize(1500);
+text(timer, windowWidth/2, windowHeight/2);
+
   
  
   
