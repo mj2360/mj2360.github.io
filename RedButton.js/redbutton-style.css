@@ -1,0 +1,24 @@
+body{
+    background-color: yellow;
+}
+.contain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 90vh;
+}
+
+#redbutton{
+    padding: 15px;
+    margin: 10vw;
+    border: solid, 20px, black;
+    background-color: red;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 200px;
+}
