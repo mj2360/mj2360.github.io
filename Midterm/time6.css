@@ -1,0 +1,50 @@
+body{
+    background: black;
+}
+
+#btn-contain{
+    width: 100vw;
+    height: 90vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#button{
+    /* align-self:center; */
+      background:transparent;
+      padding:1rem 1rem;
+      margin:0 1rem;
+      transition:all .5s ease;
+      color:darkred;
+      font-size:45px;
+      letter-spacing:1px;
+      outline:none;
+      box-shadow: 20px 38px 34px -26px ;
+      border: dotted 2px darkred;
+}
+
+#button:hover{
+    box-shadow:2px 8px 4px -6px;
+}
+
+#invisible{
+    border: solid 2px white;
+    display: flex; 
+    flex-direction: row;
+    flex-flow: row wrap;
+    align-content: stretch;
+    justify-content: space-around;
+    z-index: -1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+}
+
+.sounds{
+    border: 3px solid white;
+    width: 20vw;
+    height: 20vh;
+    margin-top: 7vh;
+}
