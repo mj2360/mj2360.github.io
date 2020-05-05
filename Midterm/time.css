@@ -1,14 +1,21 @@
 body{
     background-color: black;
+  
 }
 
 #text-contain{
-    /* display: flex;
-    flex-direction: column; */
-    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 90vw;
+    height: 50vh;
+    top: 12vh;
+ 
 }
 
-.bold-italic{
+
+#line-1{
+    color: darkred;
     font-family: 'Crimson Text', serif;
     font-size: 54px;
     padding: 3vw;
@@ -16,53 +23,55 @@ body{
     font-style: italic;
 }
 
-#line-1{
-    color: white;
+#word1{
+    opacity:100%;
+    font-size: 84px; 
     position: relative;
+    left: 4vw;
 }
 
 #word2{
-    color: #DFDFDF;
-    font-size: 52px;
+    opacity:92%;
+    font-size: 80px; 
     position: relative;
-    left: 3vw;
+    left: 10vw;
 }
 
 #word3{
-    color:#BFBFBF;
-    font-size: 50px;
+    opacity:86%;
+    font-size: 76px;
     position: relative;
-    left: 8vw;
+    left: 18vw;
 }
 
 #word4{
-    color:#9F9F9F;
-    font-size: 48px;
+    opacity:78%;
+    font-size: 72px;
     position: relative;
-    left: 11vw;
+    left: 23vw;
 }
 
 
 #word5{
-    color:#8F8F8F;
-    font-size: 46px;
+    opacity:70%;
+    font-size: 68px;
     position: relative;
-    left: 13vw;
+    left: 26vw;
 }
 
 
 #word6{
-    color:#7F7F7F;
-    font-size: 44px;
+    opacity:64%;
+    font-size: 64px;
     position: relative;
-    left: 15vw;
+    left: 29vw;
 }
 
 #word7{
-    color:#6F6F6F;
+    opacity:58%;
     font-size: 62px;
     position: relative;
-    left: 17vw;
+    left: 32vw;
     text-decoration: underline;
 }
 
@@ -78,25 +87,25 @@ body{
 }
 
 #word8{
-    color:#5F5F5F;
-    font-size: 40px;
+    opacity:54%;
+    font-size: 60px;
     position: relative;
-    left: 19vw;
+    left: 36vw;
 }
 
 #word9{
-    color:#4F4F4F;
-    font-size: 38px;
+    opacity:52%;
+    font-size: 48px;
     position: relative;
-    left: 21vw;
+    left: 40vw;
 }
 
 #word10{
-    color:#3F3F3F;
-    font-size: 36px;
+    opacity:50%;
+    font-size: 46px;
     position: relative;
-    left: 22.5vw;
-}
+    left: 43vw;
+} 
 
 .animated-1{
     animation-name: fadein;
@@ -168,18 +177,52 @@ body{
     }
   }
 
-#center-contain{
+#big-contain{
+display: flex;
+flex-direction: column;
+height: 100vh;
+justify-content: space-between;
+  }
+
+#center-contain-btm{
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
+    height: 70vh;
+    width: 100vw;
+    margin-top: 3vh;
+}
+
+#center-contain-top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    width: 100vw;
+    transform: rotate(180deg);
+    position: absolute;
+    top: -25vh;
+    margin-top: -2vh;
 }
 
 #center-img{
-    margin-top: -10vh;
-    width: 50%;
-    height:50%;
+    width: 25%;
+    height:30%;
     filter: invert();
     z-index: -1;
+    bottom: 5vh;
+}
+
+#center-img2{
+    width: 25%;
+    height:30%;
+    filter: invert();
+    z-index: -1;
+    bottom: 5vh;
+    transform: rotate(360deg);
+
 }
 
 #img-contain{
