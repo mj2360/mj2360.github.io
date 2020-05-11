@@ -4,6 +4,7 @@ let button;
 
 
 
+
 function setup() { 
   canvas = createCanvas(windowWidth, windowHeight);
   canvas.position(0,0);
@@ -17,6 +18,7 @@ function setup() {
   button.style("font-size", "36px");
   button.mousePressed(restart);
 } 
+
 
 function draw() { 
   background(220);
@@ -41,3 +43,4 @@ function restart(){
   background(220);
 
 }
+

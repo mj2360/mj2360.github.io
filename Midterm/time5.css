@@ -68,6 +68,16 @@
     to {
         opacity: 0%;
     }
+}
+
+
+  input {
+      width: 3vw;
+      height: 3vh;
+  }
+
+  label, legend{
+      font-size: 52px;
   }
 
   
