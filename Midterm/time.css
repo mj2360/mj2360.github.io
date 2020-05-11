@@ -3,6 +3,8 @@ body{
   
 }
 
+
+
 #text-contain{
     display: flex;
     flex-direction: column;
@@ -106,6 +108,7 @@ body{
     position: relative;
     left: 43vw;
 } 
+
 
 .animated-1{
     animation-name: fadein;
@@ -227,8 +230,8 @@ justify-content: space-between;
 
 #img-contain{
     position: absolute;
-    left: 80vw;
-    bottom: 35vh;
+    left: 65vw;
+    bottom: 8vh;
     width: 80vw;
     display: grid;
     grid-auto-rows: repeat(2, 1fr);
@@ -238,7 +241,8 @@ justify-content: space-between;
 }
 
 .side-imgs{
-    width: 10vw;
+    width: 20vw;
+    filter: drop-shadow(16px 16px 20px rgb(	58, 0, 0))  opacity(90%) invert(2%);
 }
 
 .side-imgs:hover{
@@ -253,18 +257,18 @@ justify-content: space-between;
   }
 
 #side-img1{
-    filter: drop-shadow(16px 16px 20px rgb(	58, 0, 0))  opacity(90%) invert(2%);;
-    
+    filter: saturate(0%);
+    opacity: (90%);
 }
 
 #side-img2{
-    filter: drop-shadow(16px 16px 20px rgb(	58, 0, 0))  opacity(70%) invert(2%);
-    
+    filter: saturate(0%);
+    opacity: (70%);
 }
 
 #side-img3{
-    filter: drop-shadow(16px 16px 20px rgb(	58, 0, 0))  opacity(50%) invert(2%);
-    
+    filter: saturate(0%);
+    opacity: (50%);
 }
 
 #cursor{

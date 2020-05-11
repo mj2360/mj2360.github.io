@@ -1,7 +1,24 @@
 /* page three */
 
-#body-3{
-    background-color: black;
+.body-3{
+    /* background-color: black; */
+    background-image: 
+    linear-gradient(black, black),
+    url("assets/woodsy.JPG");
+    background-size: cover;
+    background-blend-mode: saturation;
+
+
+}
+
+#red{
+    background-color: darkred;
+    width: 100vw;
+    height: 110vh;
+    z-index: -3;
+    position: absolute;
+    top: -0vh;
+    left:0vw;
 }
 
 #text-contain3{
@@ -36,6 +53,7 @@ font-size: 55px;
 font-weight: bold;
 font-family: 'Crimson Text', serif;
 filter: drop-shadow(0 0 0.75rem darkred);
+z-index: 2;
 }
 
 .p3buttons:hover {
@@ -131,6 +149,11 @@ filter: drop-shadow(0 0 0.75rem darkred);
       align-items: center;
   }
 
- #gif2, #gif3, #gif4, #gif5, #gif6, #gif7 {
+#gif2, #gif3, #gif4, #gif5, #gif6, #gif7, #gif8{
      margin-top:-12vh;
+     opacity: 30%;
+ }
+
+ #gif1{
+     opacity: 30%;
  }

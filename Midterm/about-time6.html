@@ -1,63 +1,166 @@
 <html>
     <head>
-		<title> About Time</title>
+    <title> About Time</title>
 		<link rel="stylesheet" type="text/css" href="time6.css" href="animate.min.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
         <link href="https://fonts.googleapis.com/css?family=Crimson+Text&display=swap" rel="stylesheet">
         <script type="text/javascript" src=page-six.js defer ></script>
-        <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js" ></script>
+        <!-- <script src= https://rawgit.com/mattboldt/typed.js/v2.0.6/lib/typed.min.js type ="module"  ></script> -->
+        <!-- <script src="./typed.js"></script> -->
         <link rel="icon" href="assets/c-hands.png" type="image/x-icon">
+        
     </head>
     
     <body>
         <div id ="btn-contain">
-            <button id= "button"> Feeling Time </button>
+            <button id= "button"> Find Time </button>
         </div>
 
-        //put sounds into an array, cycle through array to change visibility 
-        <div id= "invisible" hidden="true">
-          <div class = "sounds" id = "sound1">
-            <audio id="p1-audio" > 
-                <source src="assets/wind.wav" type="audio/wav">
-            </audio>
+        <div id= "pic-contain">
+          <img id= "ear" class= "blink-img" src= "assets/ear-boy.png" >
+        </div> 
+
+      
+        <div id= "invisible">
+          <div class = "sounds" id = "sound1" >
           </div>  
+          <audio id="p6-audio"> 
+            <source src="assets/tick-tock.wav" type="audio/wav">
+        </audio>
+
           <div class = "sounds" id = "sound2" >
-            <audio id="p1-audio" > 
-                <source src="assets/wind.wav" type="audio/wav">
-            </audio>
+           
           </div>
+
           <div class = "sounds" id = "sound3" >
-            <audio id="p1-audio" > 
-                <source src="assets/wind.wav" type="audio/wav">
-            </audio>
+           
           </div>
+
           <div  class = "sounds" id = "sound4">
-            <audio id="p1-audio"> 
-                <source src="assets/wind.wav" type="audio/wav">
-            </audio>
+           
           </div>
+
           <div class = "sounds" id = "sound5" >
-            <audio id="p1-audio"> 
-                <source src="assets/wind.wav" type="audio/wav">
-            </audio>
+           
           </div>  
+
           <div class = "sounds" id = "sound6" >
-            <audio id="p1-audio"> 
-                <source src="assets/wind.wav" type="audio/wav">
-            </audio>
+           
           </div>
+
           <div class = "sounds" id = "sound7" >
-            <audio id="p1-audio"> 
-                <source src="assets/wind.wav" type="audio/wav">
-            </audio>
+            
           </div>
+
           <div class = "sounds" id = "sound8" >
-            <audio id="p1-audio" > 
-                <source src="assets/wind.wav" type="audio/wav">
-            </audio>
+            
           </div>
 
         </div>
+
+        <div id= "txt-contain">
+        <span id= "type1">Time wasted waiting for a moment of rest
+        </span>
+        <span id= "type2">It must be a <a id = "link" href ="about-time3.html">sign</a>
+        </span>
+        <span id= "type3"> Three hands of a clock all pointing left 
+        </span>
+        <span id= "cursor"></span>
+      </div>
+        <script>
+
+var $el = $('#type1'),  
+    html = $el.html(),
+    txt = $el.text(),
+    txtLen = html.length,
+    timeOut,
+    char = 0;
+
+$el.text('|');
+
+
+
+(function typeIt() {   
+    var humanize = Math.round(Math.random() * (700 - 30)) + 30;
+    timeOut = setTimeout(function() {
+        char++;
+        var type = html.substring(0, char);
+        $el.html(type + '|');
+        typeIt();
+
+        if (char == txtLen) {
+            // $el.html($el.html().slice(0, -1)); // remove the '|'
+            clearTimeout(timeOut);
+        }
+       
+    }, humanize);
+}());
+
+var $el2 = $('#type2'), 
+  html2 = $el2.html(),
+  txt2 = $el2.text(),
+  txtLen2 = html2.length,
+  timeOut2,
+  char2 = 0;
+
+  $el2.text('|');
+
+  (function typeIt2() {   
+    var humanize2 = Math.round(Math.random() * (780 - 30)) + 30;
+    timeOut2 = setTimeout(function() {
+        char2++;
+        var type2 = html2.substring(0, char2);
+        $el2.html(type2 + '|');
+        typeIt2();
+
+        if (char2 == txtLen2) {
+            // $el.html($el.html().slice(0, -1)); // remove the '|'
+            clearTimeout(timeOut2);
+        }
+       
+    }, humanize2);
+}());
+
+var $el3 = $('#type3'), 
+  html3 = $el3.html(),
+  txt3 = $el3.text(),
+  txtLen3 = html3.length,
+  timeOut3,
+  char3 = 0;
+
+  $el3.text('|');
+
+  (function typeIt3() {   
+    var humanize3 = Math.round(Math.random() * (650 - 30)) + 30;
+    timeOut3 = setTimeout(function() {
+        char3++;
+        var type3 = html3.substring(0, char3);
+        $el3.html(type3 + '|');
+        typeIt3();
+
+        if (char3 == txtLen3) {
+            // $el.html($el.html().slice(0, -1)); // remove the '|'
+            clearTimeout(timeOut3);
+        }
+       
+    }, humanize3);
+}());
+        </script>
+
+
+
+
+        <!-- <span id= "type1">Here is some typing text stuff</span>
+        <span id= "typed"></span>
+        <script>
+          $('document').ready(function(){
+         var typed = new Typed('#typed', {
+          stringsElement: '#type1'
+         });
+        });
+
+        </script> -->
     </body>
 
 </html>
